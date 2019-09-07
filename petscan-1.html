@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>BuscaPet - Localize o seu Pet</title>
+<style>
+h1{
+font-family: Courier;
+font-size: 30pt;
+color: brown;
+text-shadow: 2px 2px 2px black;
+}
+</style>
+<style>
+body{
+background-image: url(https://www.vetvoice.com.au/imagevault/publishedmedia/x09ia9yh6g37z7wjz8ql/dog_-_cat.jpg);
+background-attachment:fixed;
+background-size:40%;
+background-repeat:no-repeat;
+background-color:#FFFFFF;
+background-position:right;
+
+}
+</style>
+</head>
+<body>
+<div id="interface">
+<header id="cabecalho">
+<hgroup>
+<font color="brown" align="center" face="Arial">
+
+<center><h1>BuscaPet</h1></center>
+
+<hr color="brown">
+
+<center><h2>Sistema de localização via GPS e monitoramento de coleira.</h2></center>
+</hgroup>
+</header>
+<br><br><br>
+
+<center>Informe os dados abaixo para consulta:</center>
+
+<br>
+
+<form name="dados">
+<center>Cidade:<input type="text" onkeyup="envia() ;" name="entrada" id="entrada" />
+Código da Coleira:<input type="text" name="retorno" id="retorno" /></center>
+</form>
+
+<br><br><br>
+
+<table bgcolor="#F3DFBA"border="2" cellspacing="2" cellpadding="2" align="center">
+<tr>
+<th colspan="6">Alguns dos Pets localizados recentemente</th>
+</tr>
+<tr>
+<th>Cidade</th>
+<th>Nome do Pet:</th>
+<th>Raça:</th>
+<th>Sexo:</th>
+<th>Latitude:</th>
+<th>Longitude:</th>
+</tr>
+
+<tr>
+<td>Juiz de Fora</td>
+<td>Geraldinho</td>
+<td>Pincher</td>
+<td>Macho</td>
+<td>-21.76131324</td>
+<td>-43.34955096</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Bobby</td>
+<td>Siamês</td>
+<td>Macho</td>
+<td>-21.77386766</td>
+<td>-43.35485101</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Nina</td>
+<td>Pastor Alemão</td>
+<td>Fêmea</td>
+<td>-21.77048006</td>
+<td>-43.34991574</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Jimmy</td>
+<td>Shitzu</td>
+<td>Macho</td>
+<td>-21.76171181</td>
+<td>-43.34498048</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Lolita</td>
+<td>Poodle</td>
+<td>Fêmea</td>
+<td>-21.76171181</td>
+<td>-43.34498048</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Grampôla</td>
+<td>Vira-Latas</td>
+<td>Fêmea</td>
+<td>-21.75674953</td>
+<td>-43.3414185</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Billy</td>
+<td>Fox Paulistinha</td>
+<td>Macho</td>
+<td>-21.75674953</td>
+<td>-43.3414185</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Rex</td>
+<td>Rottweiller</td>
+<td>Macho</td>
+<td>-21.76870653</td>
+<td>-43.34380031</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Damma</td>
+<td>Husky Siberiano</td>
+<td>Fêmea</td>
+<td>-21.76870653</td>
+<td>-43.34380031</td>
+</tr>
+<tr>
+<td>Juiz de Fora</td>
+<td>Preto</td>
+<td>Pincher</td>
+<td>Macho</td>
+<td>-21.75569328</td>
+<td>-43.35023761</td>
+</tr>
+</table>
+
+<hr color="brown" width=50%>
+<br><span><center><font size=3 color="brown"> BuscaPet &copy; 2019 • All rights reserved.</font></center></span>
+
+</div>
+</body>
+</html>
